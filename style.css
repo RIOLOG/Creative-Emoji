@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #f4c531;
+  }
+  .container {
+    background-color: #ffffff;
+    height: 31.25em;
+    width: 25em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 0.8em;
+    box-shadow: 0 1.87em 4em rgba(86, 68, 9, 0.3);
+  }
+  .buttons-container {
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1em;
+  }
+  .buttons-container button {
+    font-size: 0.9em;
+    gap: 0.5em;
+    padding: 0.8em 1em;
+    border-radius: 2em;
+    border: none;
+    background-color: #f4c531;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
+  .emoji-container {
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+  }
+  .emoji {
+    height: 14.37em;
+    width: 14.37em;
+    background-color: #ffd21f;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+  .eyes,
+  .eyebrows,
+  .mouth {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  .eyes {
+    top: 5em;
+  }
+  .eyebrows {
+    top: 3.12em;
+  }
+  .mouth {
+    top: 7.5em;
+  }
+
+
+
+  /* Styling for the footer container */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styling for the developer info section */
+.developer-info {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling for the copyright section */
+.copyright {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Styling for the GitHub icon */
+.github img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Hover effect for the GitHub icon */
+.github img:hover {
+  opacity: 0.7;
+}
